@@ -6,7 +6,8 @@ import MdiRss from "~icons/mdi/rss";
 import PostsList from "../components/PostsList.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import SeriesList from "../components/SeriesList.astro";
+// TODO: Restore this portion when working on https://trello.com/c/Fy7IOtRWf
+// import SeriesList from "../components/SeriesList.astro";
 import { GITHUB_HANDLE } from "../consts";
 
 const posts = await getCollection("blog");
@@ -26,7 +27,7 @@ const featuredSeries = (await getCollection("series")).filter((s) => s.data.feat
     <div class="space-y-4">
       <h1 class="text-4xl text-black dark:text-white font-black">
         Hey there! <span
-          class="underline underline-offset-2 decoration-fuchsia-600 dark:decoration-fuchsia-400"
+          class="underline underline-offset-2 decoration-emerald-600 dark:decoration-emerald-400"
           >We're Austin and Cherith</span
         >
       </h1>
@@ -65,7 +66,7 @@ const featuredSeries = (await getCollection("series")).filter((s) => s.data.feat
         <h1 class="text-3xl text-black dark:text-white">Latest Posts</h1>
         <a
           href="/blog"
-          class="inline-flex items-center justify-center py-0.5 px-3 bg-blue-600 hover:bg-blue-800 rounded-full text-sm text-white"
+          class="inline-flex items-center justify-center py-0.5 px-3 bg-emerald-400 hover:bg-emerald-600 rounded-full text-sm text-white"
           >View all</a
         >
       </div>

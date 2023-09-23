@@ -2,7 +2,7 @@
 title: "First post — Hello world!"
 description: "The new blog and what to expect"
 featured: true
-# Reference this when working on https://trello.com/c/Fy7IOtRWf
+# TODO: Reference this when working on https://trello.com/c/Fy7IOtRWf
 # seriesId: first-series
 orderInSeries: 1
 pubDate: "Sep 23 2023"
