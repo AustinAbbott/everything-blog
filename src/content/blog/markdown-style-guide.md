@@ -5,7 +5,7 @@ featured: true
 seriesId: first-series
 orderInSeries: 5
 pubDate: "Jul 01 2022"
-cover: "~/assets/placeholder-hero.png"
+cover: "../../assets/placeholder-hero.png"
 coverAlt: "Hero Image"
 tags:
   - markdown
