@@ -71,7 +71,8 @@ const featuredSeries = (await getCollection("series")).filter((s) => s.data.feat
       </div>
       <PostsList posts={sortedPosts} />
     </div>
-    {
+    <!-- TODO: Restore this portion when working on https://trello.com/c/Fy7IOtRWf -->
+    <!-- {
       featuredSeries.length > 0 && (
         <div class="space-y-5">
           <div class="flex items-center justify-between space-x-2">
@@ -86,6 +87,6 @@ const featuredSeries = (await getCollection("series")).filter((s) => s.data.feat
           <SeriesList series={featuredSeries} />
         </div>
       )
-    }
+    } -->
   </div>
 </BaseLayout>
