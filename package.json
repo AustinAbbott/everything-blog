@@ -1,7 +1,7 @@
 {
-  "name": "nimbus-narratives",
-  "author": "Abdullah Elsayed <hi@abdllah.dev>",
-  "repository": "https://github.com/abdllahdev/nimbus-narratives.git",
+  "name": "everything-blog",
+  "author": "Austin Abbott",
+  "repository": "https://github.com/AustinAbbott/everything-blog.git",
   "license": "MIT",
   "type": "module",
   "version": "0.0.1",

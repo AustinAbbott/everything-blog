@@ -48,4 +48,5 @@ const series = defineCollection({
   }),
 });
 
-export const collections = { blog, series };
+// Add 'series' back here when working on https://trello.com/c/Fy7IOtRW
+export const collections = { blog };
