@@ -1,5 +1,5 @@
-export const SITE_NAME = "The Everything Blog";
-export const SITE_TITLE = "A personal blog by Austin & Cherith Abbott";
+export const SITE_NAME = "AustinAbbott.dev";
+export const SITE_TITLE = "A dev blog by Austin Abbott";
 export const SITE_DESCRIPTION =
-  "The Everything Blog | A personal blog by Austin and Cherith Abbott";
+  "A blog by Austin Abbott about web development, software engineering, and other notes-to-self.";
 export const GITHUB_HANDLE = "https://github.com/AustinAbbott";
